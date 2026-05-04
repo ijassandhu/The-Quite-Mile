@@ -18,12 +18,22 @@ export const site = {
     { label: 'Inquiry',     href: '#inquiry' },
   ],
   story: {
-    index: '01 / Arrival',
-    label: 'The Quiet Mile · Chamba',
-    lines: [
-      'Before the orchard appears, the noise starts falling away.',
-      'The road thins. The air cools. The phone becomes less important.',
-      'A hidden orchard above Chamba — shaped for people who want to slow down before they arrive.',
+    beats: [
+      {
+        eyebrow: '01 / Leaving Noise',
+        headline: 'Before the orchard appears, the noise starts falling away.',
+        body: 'The road thins. The air cools. The phone becomes less important.',
+      },
+      {
+        eyebrow: '02 / The Walk',
+        headline: 'The final stretch is not driven. It is walked.',
+        body: 'Around twenty minutes on foot — enough time for the city to loosen its grip.',
+      },
+      {
+        eyebrow: '03 / Arrival',
+        headline: 'Above Chamba, the orchard waits quietly.',
+        body: 'Not a resort. Not a crowd. Just mountain air, fruit trees, and stillness.',
+      },
     ],
   },
   hero: {
