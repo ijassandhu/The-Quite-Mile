@@ -6,33 +6,23 @@ export type GalleryImage = {
 
 export const gallery: GalleryImage[] = [
   {
-    src: '/images/gallery/cabin-exterior.jpg',
-    alt: 'Wooden cabin surrounded by coffee estate',
-    caption: 'Forest Cabin',
+    src: '/images/hero/summers.png',
+    alt: 'Golden orchard trail above Chamba in summer light',
+    caption: 'Summer orchard',
   },
   {
-    src: '/images/gallery/morning-mist.jpg',
-    alt: 'Morning mist rolling over the valley',
-    caption: 'Sunrise from the deck',
+    src: '/images/hero/landing_pg.png',
+    alt: 'Misty mountain orchard in winter fog',
+    caption: 'Winter fog',
   },
   {
-    src: '/images/gallery/dining.jpg',
-    alt: 'Open-air dining table set for a meal',
-    caption: 'Farm-to-table dining',
+    src: '/images/hero/arrival-transition.jpeg',
+    alt: 'Quiet mountain approach toward The Quiet Mile',
+    caption: 'Arrival walk',
   },
   {
-    src: '/images/gallery/trail.jpg',
-    alt: 'A trail through the spice plantation',
-    caption: 'Forest trail',
-  },
-  {
-    src: '/images/gallery/bonfire.jpg',
-    alt: 'Bonfire at night with clear sky',
-    caption: 'Evening bonfire',
-  },
-  {
-    src: '/images/gallery/interior.jpg',
-    alt: 'Warm interior of the main cabin',
-    caption: 'Inside the cabin',
+    src: '/images/hero/summers.png',
+    alt: 'Warm ridge light across orchard land',
+    caption: 'Long evenings',
   },
 ]

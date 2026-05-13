@@ -6,27 +6,27 @@ export type Experience = {
 
 export const experiences: Experience[] = [
   {
-    id: 'forest-walks',
-    title: 'Forest Walks',
+    id: 'orchard-mornings',
+    title: 'Orchard Mornings',
     description:
-      'Guided trails through untouched coffee and spice plantations at the edge of the estate.',
+      'Wake slowly among apple, pear, blueberry, and sitafal trees while the ridge is still cool.',
   },
   {
-    id: 'sunrise-deck',
-    title: 'Sunrise Deck',
+    id: 'sunset-walks',
+    title: 'Sunset Walks',
     description:
-      'Start the morning on the elevated deck as mist lifts over the valley below.',
+      'Follow the orchard edge as the valley turns amber and the evening begins to lower its voice.',
   },
   {
-    id: 'farm-to-table',
-    title: 'Farm-to-Table Meals',
+    id: 'firelight-evenings',
+    title: 'Firelight Evenings',
     description:
-      'Seasonal meals prepared with ingredients grown within the property or sourced locally.',
+      'Sit close to warmth, sky, and simple conversation after the phones have stopped asking.',
   },
   {
-    id: 'bonfire-evenings',
-    title: 'Bonfire Evenings',
+    id: 'winter-stillness',
+    title: 'Winter Stillness',
     description:
-      'Unwind beside a fire under a sky full of stars with no city light to compete.',
+      'Mist, pine silhouettes, and the kind of quiet that makes even small sounds feel important.',
   },
 ]

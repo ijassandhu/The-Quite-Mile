@@ -10,33 +10,33 @@ export type Stay = {
 
 export const stays: Stay[] = [
   {
-    id: 'forest-cabin',
-    name: 'Forest Cabin',
+    id: 'orchard-room',
+    name: 'Orchard Room',
     description:
-      'An intimate cabin nestled among the coffee trees. Wake up to birdsong and morning mist.',
+      'A future rustic-modern room concept for quiet weekends among fruit trees and mountain air.',
     capacity: 2,
-    features: ['Private deck', 'Outdoor rain shower', 'Fireplace', 'Hammock'],
-    imageSrc: '/images/stays/forest-cabin.jpg',
-    imageAlt: 'Forest cabin with wooden deck',
+    features: ['Orchard-facing sit-out', 'Warm bedding', 'Simple meals', 'Low-light evenings'],
+    imageSrc: '/images/hero/summers.png',
+    imageAlt: 'Summer orchard light at The Quiet Mile',
   },
   {
-    id: 'valley-cottage',
-    name: 'Valley Cottage',
+    id: 'stone-cabin',
+    name: 'Stone Cabin',
     description:
-      'A spacious stone cottage overlooking the valley. Ideal for couples or small families.',
+      'A grounded cabin direction with stone, timber, and just enough comfort to let nature stay close.',
     capacity: 4,
-    features: ['Valley view', 'Kitchenette', 'Bathtub', 'Garden walk-out'],
-    imageSrc: '/images/stays/valley-cottage.jpg',
-    imageAlt: 'Valley cottage with panoramic view',
+    features: ['Mountain view', 'Quiet desk corner', 'Shared fire space', 'Foot-access arrival'],
+    imageSrc: '/images/hero/arrival-transition.jpeg',
+    imageAlt: 'Mountain approach near the future stay area',
   },
   {
-    id: 'treetop-suite',
-    name: 'Treetop Suite',
+    id: 'winter-hideout',
+    name: 'Winter Hideout',
     description:
-      'Perched above the canopy, the suite offers total seclusion and sweeping treetop views.',
+      'A slower cold-season idea for foggy mornings, heavy blankets, reading, and early nights.',
     capacity: 2,
-    features: ['Canopy views', 'Private plunge pool', 'Skylight bedroom', 'Butler service'],
-    imageSrc: '/images/stays/treetop-suite.jpg',
-    imageAlt: 'Treetop suite above the forest canopy',
+    features: ['Mist-facing window', 'Tea corner', 'Soft heat', 'No resort crowds'],
+    imageSrc: '/images/hero/landing_pg.png',
+    imageAlt: 'Misty winter mountain mood at The Quiet Mile',
   },
 ]
